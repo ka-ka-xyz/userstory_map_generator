@@ -1,0 +1,41 @@
+# see http://www.graphviz.org/doc/info/attrs.html for details.
+font_opt:
+  fontsize: 10
+# Windows specific option
+win_opt:
+  fontname: MS UI Gothic
+# config for backbone nodes
+backbone_opts:
+  shape: note
+  colorscheme: paired9
+  style: filled
+  fillcolor: 1
+# config for narrativeflow nodes
+narrativeflow_opts:
+  shape: note
+  colorscheme: paired9
+  style: filled
+  fillcolor: 3
+# config for detail nodes
+details_opts:
+  shape: note
+  colorscheme: paired9
+  style: filled
+  fillcolor: 5
+# config for edge (arrow between nodes)
+edge_opts:
+  style: dotted
+  arrowhead: none
+# config for edge between backbone nodes
+backbone_edge_opts:
+  style: dotted
+  constraint: false
+# config for subgrap enveloping backbone tree
+backbone_subgraph_opt:
+  style: invis
+# config for subgrap enveloping narrative flow tree
+narrativeflow_subgraph_opt:
+  style: invis
+# config for subgrap enveloping detail nodes
+detail_subgroup_opt:
+  style: invis
